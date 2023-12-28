@@ -9,6 +9,6 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         System.out.println("ededi daxil edin");
         int v=sc.nextInt();
-Tapsiriqlar.tap2(v);
+Tapsiriqlar.tap3(v);
     }
 }
