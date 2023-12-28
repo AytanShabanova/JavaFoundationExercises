@@ -44,5 +44,29 @@ public class Tapsiriqlar {
 
 
     }
+    //3-cu deyisenden istifade etmeden 2 deyisenin yerini deyismek
+    public static void tap4(){
+        int a=5;
+        int b=6;
+        b=b+a;
+        a=b-a;
+        b=b-a;
+
+        System.out.println(a);
+        System.out.println(b);
+    }
+    //ededin reqemlerinin sayini tapin
+    public static void tap5(Integer value){
+        int i=0;
+        while (value>0) {
+
+            int qaliq = value % 10;
+            value=value/10;
+          i++;
+
+        }
+        System.out.println(i);
+
+    }
 
 }
