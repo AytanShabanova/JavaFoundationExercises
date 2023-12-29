@@ -138,6 +138,19 @@ public class Tapsiriqlar {
             System.out.println(word);
 
         }
+
+    }
+    //a ve b indexleri arasindaki characterleri getirmek ucun method
+    public static void tap12(int a,int b,String word){
+      String s=  word.substring(a,b);
+        System.out.println(s);
+
+    }
+    //cumlenin ve ya sozun evvelindeki ve sonundaki bosluqlari silmek ucun method
+    public static void tap13(String word){
+       String s= word.trim();
+        System.out.println(s);
+
     }
 
 }
