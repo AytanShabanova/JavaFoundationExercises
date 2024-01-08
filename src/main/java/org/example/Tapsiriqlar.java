@@ -152,5 +152,31 @@ public class Tapsiriqlar {
         System.out.println(s);
 
     }
+    //massivdeki ededleri toplayir ve geriye qaytarir. Meselen: {1,2,3,4,5} method return edecek 1+2+3+4+5;
+    public static void tap14(Integer [] args){
+        int cem=0;
+        for (Integer arr:args) {
+          cem+=arr.intValue();
+
+        }
+        System.out.println(cem);
+
+    }
+    public static boolean tap15(Integer []args) {
+        for (int i = 0; i <args.length-1 ; i++) {
+            if (args[i]==args[i+1]){
+                return true;
+            }
+        }return false;
+
+        }
+        public static boolean taps16(Integer []args){
+            for (int i = 1; i <args.length ; i++) {
+                if (args[i]<=args[i-1]){
+                    return false;
+                }
+
+            }return true;
+        }
 
 }
