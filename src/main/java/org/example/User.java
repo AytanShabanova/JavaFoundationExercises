@@ -1,5 +1,9 @@
 package org.example;
 
-public class User {
+import java.util.ArrayList;
+
+public interface User {
+
+    public   abstract  void foo2();
 
 }
